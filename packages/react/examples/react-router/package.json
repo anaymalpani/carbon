@@ -5,7 +5,7 @@
   "dependencies": {
     "carbon-components": "^9.68.10",
     "carbon-components-react": "^6.81.4",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-router-dom": "^4.3.1",

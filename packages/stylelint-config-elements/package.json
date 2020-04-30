@@ -25,9 +25,15 @@
   "dependencies": {
     "stylelint-config-prettier": "^4.0.0",
     "stylelint-prettier": "^1.0.6",
-    "stylelint-scss": "^3.5.3"
+    "stylelint-scss": "^3.5.3",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "stylelint": "^9.10.1"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }

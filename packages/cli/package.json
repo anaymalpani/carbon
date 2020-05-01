@@ -30,6 +30,12 @@
     "prettier": "^1.18.2",
     "progress-estimator": "^0.2.2",
     "remark": "^10.0.1",
-    "yargs": "^13.2.4"
-  }
+    "yargs": "^13.2.4",
+    "snyk": "^1.316.1"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
